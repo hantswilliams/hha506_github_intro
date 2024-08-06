@@ -1,4 +1,4 @@
 select * 
 from tables.ehr.patient
-where 'patient_name' = 'Hants'
+where 'patient_name' = 'Williams'
 limit 50; 
