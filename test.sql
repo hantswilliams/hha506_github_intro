@@ -1,4 +1,3 @@
-select * 
-from tables.ehr.patient
-where 'patient_name' = 'Williams'
-limit 50; 
+select count(*) 
+from tables.ehr.medications
+where 'mrn' = 'MRN-3434AAdsdssd';
